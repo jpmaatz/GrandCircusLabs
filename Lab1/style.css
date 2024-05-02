@@ -1,0 +1,32 @@
+body {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color:#CED0CF;
+}
+
+p {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color:#B0F7FF;
+    padding-block: 20px;
+}
+
+form {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding-block: 20px;
+}
+
+h1 {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding-block: 20px;
+}
