@@ -1,0 +1,23 @@
+body {
+    background-color: #ccc;
+    font-family: Nanum Brush Script;
+}
+
+img {
+    width:150px;height:150px;
+    float: left;
+    rotate: -5deg;
+    border: 3px solid #ddd;
+    margin-left: 10px;
+}
+
+div {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    justify-content: center;
+    font-family: Seaweed Script;
+}
