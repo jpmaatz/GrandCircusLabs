@@ -1,0 +1,47 @@
+.title {
+    
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+}
+
+.links {
+    color: #69696a;
+    font-family: "Open Sans", sans-serif;
+    a:hover{
+        color: green;
+    }
+    a:visted{
+        color: red;
+    } 
+}
+
+@media screen and (min-width: 480px) {
+    
+}
+
+body {
+    background-color: #f9fafc;
+  }
+
+.flex-container {
+    display: flex;
+    background-color: #000;
+    border-radius: 25px;
+    width: 100%;
+    margin: automatic;
+    
+}
+
+.p1 {
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background-color: rgba(247,193,162,0.7);
+    position: static;
+}
+ 
+.p2 {
+    font-family: "Open Sans", sans-serif;
+}
