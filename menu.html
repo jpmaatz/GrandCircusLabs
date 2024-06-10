@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu Homework Lab</title>
+<style>
+  .menu {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .menu-content {
+    background-color: #f9f9f9;
+    min-width: 160px;
+  }
+
+  .menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .menu-content a:hover {
+    background-color: #c61818;
+  }
+</style>
+</head>
+<body>
+
+<div class="menu" id="menuButton">
+  Menu
+  <div class="menu-content" id="menuContent">
+    <a href="#" id="alpha1">Letters</a>
+    <a href="#" id="numbers1">Numbers</a>
+  </div>
+</div>
+ 
+
+<script>
+  document.getElementById("menuButton").addEventListener("click", function(event) {
+    event.stopPropagation(); 
+    document.getElementById("menuContent").style.display = "block";
+  });
+
+  document.addEventListener("click", function() {
+    document.getElementById("menuContent").style.display = "none";
+  });
+
+  document.getElementById("Letters").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("Letters1").style.display = "block";
+    document.getElementById("Letter1").style.display = "none";
+    document.getElementById("menuContent").style.display = "none";
+  });
+
+  document.getElementById("Number2").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("Number2").style.display = "none";
+    document.getElementById("Number2").style.display = "block";
+    document.getElementById("menuContent").style.display = "none";
+  });
+</script>
+
+
+<p><h5>A B C D E F G H I J K L M</h5></p>
+<p><h5>N O P Q R S T U V W X Y Z</h5></p>
+
+</body>
+</html>
