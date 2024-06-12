@@ -1,0 +1,24 @@
+.penny {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #b87333;
+}
+.quarter {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: silver;
+}
+.nickel {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: silver;
+}
+.dime {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: silver;
+}
