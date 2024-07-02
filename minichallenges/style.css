@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: calc(50% - 10px);
+    margin: 5px;
+}
+
+.lightbulb {
+    background-color: skyblue;
+    color: sandybrown;
+    border: 1px solid palegoldenrod;
+    font-weight: 600;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.off {
+    background-color: midnightblue;
+    color: red;
+
+}
