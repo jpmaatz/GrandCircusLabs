@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', () => {
     fetch('https://www.reddit.com/r/aww/.json')
         .then(response => response.json())
@@ -12,4 +14,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
         });
     })
+
 });
