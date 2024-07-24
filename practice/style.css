@@ -1,0 +1,29 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+	margin-top: 10px;
+}
+
+.highlighted {
+	background-color: cyan;
+	color: #353535;
+	font-weight: 600;
+}
+
+.shape {
+	border: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.circle {
+	border-radius: 50%;
+}

@@ -1,3 +1,4 @@
+
 const changeContainer = document.getElementById("change")
 const coinType = document.getElementById("coin-type")
 const count = document.getElementById("count")
@@ -18,4 +19,5 @@ document.getElementById("submit").addEventListener('click', e => {
     const numCoins = +count.value
     const type = coinType.options[coinType.options.selectedIndex].value
     makeChange(type, numCoins)
+
 })
