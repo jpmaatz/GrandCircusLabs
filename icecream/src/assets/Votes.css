@@ -1,0 +1,18 @@
+.votes {
+    margin: 20px;
+}
+
+.vote {
+    margin: 10px 0;
+}
+
+.vote button {
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.vote-info {
+    margin-left: 10px;
+  }

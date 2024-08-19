@@ -1,0 +1,10 @@
+.ad-designer {
+    margin: 20px;
+}
+
+.ad {
+    border: 2px solid;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Caveat', sans-serif;
+}
