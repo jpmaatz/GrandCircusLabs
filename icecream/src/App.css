@@ -1,4 +1,17 @@
-.App {
+.app {
     font-family: sans-serif;
     text-align: center;
-  }
+    padding: 20px;
+}
+  
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+@media (min-width: 768px) {
+    .main-content {
+      flex-direction: row;
+    }
+}

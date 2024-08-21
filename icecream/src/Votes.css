@@ -1,0 +1,50 @@
+.votesChoc {
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 5px;
+    border: 5px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 0%;
+}
+
+.votesVani {
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 5px;
+    border: 5px;
+    width: 0%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.votesStraw {
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    padding: 5px;
+    border: 5px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 0%;
+}
+
+.flavor {
+    margin-bottom: 10px;
+}
+  
+.flavor-name {
+    font-weight: bold;
+}
+  
+.bar {
+    height: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 0%;
+}
+  
+@media (min-width: 768px) {
+    .votes {
+      text-align: left;
+    }
+}
